@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "html-plan-ja",
+  "version": "0.1.0",
+  "description": "日本語の開発計画を手作業で構成するSkillと設計・画面見本。自動生成とOKF接続は未実装。",
+  "author": {
+    "name": "yumi-ai-lab"
+  },
+  "repository": "https://github.com/yumi-ai-lab/html-plan-ja",
+  "license": "MIT",
+  "keywords": [
+    "planning",
+    "japanese",
+    "knowledge"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "HTML Plan JA",
+        "shortDescription": "日本語で開発計画を確認する設計初版",
+        "capabilities": []
+      }
+    }
+  }
+}

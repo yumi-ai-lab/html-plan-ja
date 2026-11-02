@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "0.1",
+  "projectId": "public-demo",
+  "planId": "review-plan",
+  "revision": 1,
+  "title": "計画の確認画面を日本語で整える",
+  "createdAt": "2026-11-03T09:00:00+09:00",
+  "visibility": "synthetic-public",
+  "sources": [
+    {
+      "id": "demo-source",
+      "path": "examples/source.md",
+      "sha256": "764124eeae37fa877aff15d1288de0fa4d50a5b92ac16863e0ce2901c760fc3f"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-01",
+      "text": "要点から詳細へ順に確認できる画面を提案します。",
+      "kind": "proposal",
+      "sourceIds": [
+        "demo-source"
+      ],
+      "parentId": null
+    },
+    {
+      "id": "claim-02",
+      "text": "回答を正本へ安全に自動反映できるかは未確認です。",
+      "kind": "unknown",
+      "sourceIds": [],
+      "parentId": null
+    }
+  ],
+  "decisions": [
+    {
+      "id": "reading-depth",
+      "claimId": "claim-01",
+      "question": "最初に表示する詳しさは？",
+      "options": [
+        {
+          "id": "summary",
+          "label": "要点から読む",
+          "tradeoff": "全体を見て、必要な詳細だけ開きます。"
+        },
+        {
+          "id": "detail",
+          "label": "詳細も開く",
+          "tradeoff": "初めから根拠も読めますが、表示量が増えます。"
+        }
+      ]
+    }
+  ],
+  "timeline": {
+    "conversationRefs": [],
+    "factRefs": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "0.1",
+  "projectId": "public-demo",
+  "planId": "review-plan",
+  "planRevision": 1,
+  "answers": [
+    {
+      "decisionId": "reading-depth",
+      "status": "unanswered",
+      "optionId": null,
+      "reviewedAt": null
+    }
+  ],
+  "comments": []
+}
